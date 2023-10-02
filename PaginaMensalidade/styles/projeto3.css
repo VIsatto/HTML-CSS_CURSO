@@ -1,0 +1,133 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 25, 28);
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 960px;
+
+    
+}
+
+.cabec-principal{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    background-color: rgb(14, 14, 17);
+    text-align: center;
+    
+    
+}
+
+.cabec-principal nav{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.cabec-principal_nome{
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.cabec-principal a{
+    text-decoration: none;
+    color: white;
+    padding: 13px 10px;
+    border-radius: 6px;
+}
+
+.cabec-principal a:hover{
+    background-color:rgb(223, 253, 0);
+    color: black;
+    text-decoration: underline;
+}
+
+.principal h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 45px 0;
+}
+
+.principal-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.principal-container_itens{
+    background-color: rgba(46, 46, 52, 0.879);    
+    padding: 5px 23px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    box-shadow: 0 5px 15px -6px black;
+    
+}
+
+.principal-container_itens h2{
+    border-bottom: rgba(212, 201, 54, 0.9) solid 2px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.principal-container_itens p{
+    margin-top: 0;
+}
+
+.principal-container_itens strong{
+    font-size: 25px;
+}
+
+.principal-container_itens ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 17px;
+    margin: 0 0 35px 0;
+    flex-grow: 1;
+    line-height: 1.8 ;
+}
+
+.principal-container_itens li::marker{
+    color: rgb(221, 208, 25) ;
+}
+
+.principal-container_itens footer{
+    margin: 50px 5px 35px 5px;
+    text-align: center;
+}
+
+.principal-container_itens footer a{
+    background-color: rgba(212, 201, 54, 1);
+    text-decoration: none;
+    text-align: center;
+    color: #0c1014e8;
+    text-transform: uppercase;
+    font-weight: bold; 
+    padding: 13px 70px;
+    border-radius: 6px;
+    font-size: 16px;
+
+}
+
+.principal-container_itens footer a:hover{
+    background-color: rgb(253, 220, 0, 0.0);
+    outline: solid 2px rgba(212, 201, 54, 1);
+}
