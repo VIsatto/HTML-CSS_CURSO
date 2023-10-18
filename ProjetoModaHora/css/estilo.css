@@ -1,0 +1,149 @@
+/* Cores utilizadas no projeto:
+
+Background Top Header: #162028
+
+Cor do texto no menu: #425564
+
+Cor dos textos: #555
+
+Cor de fundo do box com imagem de detalhe: #003d52
+
+Cor de fundo do footer: #0b171f
+
+Cor de texto do footer: #6f8597 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@400;700&display=swap');
+
+html,
+body {
+    height: 100%;
+    font-size: 115%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    color: #555;
+
+
+}
+
+.top {
+    width: 100%;
+}
+
+.top img {
+    width: 100%;
+}
+
+.top-head {
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-head h1 {
+    color: white;
+    font-family: 'Italiana', sans-serif;
+    font-weight: normal;
+    font-size: 3rem;
+    margin: 1rem 0 1rem 12rem;
+}
+
+.top-head ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin: 1rem 4rem 1rem 0;
+    list-style: none;
+}
+
+.top-head li {
+    text-transform: uppercase;
+    margin: 0;
+    color: #425564;
+    letter-spacing: .5rem;
+    font-size: .9rem;
+}
+
+.top-head a {
+    color: #425564;
+    text-decoration: none;
+}
+
+.mid {
+    margin: 10rem 10rem 0 10rem;
+    text-align: center;
+}
+
+.mid-title {
+    font-family: 'Italiana', sans-serif;
+    font-size: 3rem;
+    color: #2a2a2a;
+}
+
+.mid-text {
+    margin-top: 6rem;
+    line-height: 2rem;
+}
+
+.mid-container {
+    margin-top: 6rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.mid-container img {
+    width: 15rem;
+}
+
+.mid-container__nome {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 110%;
+}
+
+.bot {
+    height: 40rem;
+    background-color: #003d52;
+    margin-top: 8rem;
+    text-align: start;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.bot-container {
+    padding-top: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bot h1 {
+    font-family: 'Italiana', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0 10rem 2rem 10rem;
+
+}
+
+.bot p {
+    margin: 0 25rem 0 10rem;
+    font-weight: normal;
+}
+
+.copy {
+    background-color: #0b171f;
+    color: #6f8597;
+    width: 100%;
+}
